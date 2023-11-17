@@ -63,7 +63,7 @@ gem 'grape-swagger', '~> 0.7.2'
 gem 'rack-attack', '~> 3.0.0'
 gem 'easy_table'
 gem 'phonelib', '~> 0.3.5'
-gem 'twilio-ruby', '~> 5.7.2'
+gem 'twilio-ruby', '~> 5.8.0'
 gem 'unread', github: 'InfraexDev/unread'
 gem 'carrierwave', '~> 0.10.0'
 gem 'simple_captcha2', require: 'simple_captcha'
@@ -91,10 +91,10 @@ group :test do
   gem 'database_cleaner'
   gem 'mocha', :require => false
   gem 'shoulda-matchers'
-  gem 'capybara'
+  gem 'capybara', '>= 2.5.0'
   gem 'launchy'
   gem 'selenium-webdriver'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.6.0'
 
   # rspec-rails rely on test-unit if rails version less then 4.1.0
   # but test-unit has been removed from ruby core since 2.2.0
